@@ -24,7 +24,7 @@ public class SpiderLeg {
 				Elements linksFound = htmlDocument.select("a[href]");
 				for(Element link : linksFound) {
 					links.add(link.absUrl("href"));
-				}
+				} 
 				return true;
 			}else {
 				return false;

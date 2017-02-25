@@ -9,7 +9,7 @@ public class Spider {
 	
 	private String getNextUrl() {
 		String nextURL;
-		do {
+		do { 
 			nextURL = this.pagesToVisit.remove(0);
 		}while(this.pagesVisited.contains(nextURL));
 		
